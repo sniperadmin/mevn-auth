@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // setting up static dir
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'dist')));
 
 app.use(passport.initialize());
 // strategy
@@ -35,6 +35,11 @@ mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
 const users = require('./routes/api/users');
 
 app.use('/api/users', users);
+
+// get build version of the client side
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist/index.html'))
+})
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => { console.log('server listening on ' + port); })
