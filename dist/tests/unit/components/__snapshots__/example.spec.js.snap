@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld.vue renders component with contents 1`] = `
+<v-container-stub tag="div">
+  <v-row-stub tag="div" class="text-center">
+    <v-col-stub cols="12" tag="div">
+      <v-row-stub tag="div" justify="center">
+        <v-col-stub cols="2" sm="4" tag="div">
+          <v-img-stub height="200" alt="Mongo logo" contain="true" options="[object Object]" position="center center" src="../assets/mongodb.png" transition="fade-transition" class="shrink mt-3"></v-img-stub>
+        </v-col-stub>
+        <v-col-stub cols="2" sm="4" tag="div">
+          <v-img-stub height="200" alt="Express logo" contain="true" options="[object Object]" position="center center" src="../assets/express-min.png" transition="fade-transition" class="shrink mt-3"></v-img-stub>
+        </v-col-stub>
+        <v-col-stub cols="2" sm="4" tag="div">
+          <v-img-stub height="200" contain="true" options="[object Object]" position="center center" src="../assets/logo.svg" transition="fade-transition"></v-img-stub>
+        </v-col-stub>
+        <v-col-stub cols="2" sm="4" tag="div">
+          <v-img-stub height="200" alt="Vue logo" contain="true" options="[object Object]" position="center center" src="../assets/logo.png" transition="fade-transition" class="shrink mt-3"></v-img-stub>
+        </v-col-stub>
+        <v-col-stub cols="2" sm="4" tag="div">
+          <v-img-stub height="200" alt="Nodejs logo" contain="true" options="[object Object]" position="center center" src="../assets/nodejs.png" transition="fade-transition" class="shrink mt-3"></v-img-stub>
+        </v-col-stub>
+        <v-col-stub cols="8" sm="4" tag="div">
+          <v-img-stub height="200" alt="Nodejs logo" contain="true" options="[object Object]" position="center center" src="../assets/jest.png" transition="fade-transition" class="shrink mt-3"></v-img-stub>
+        </v-col-stub>
+      </v-row-stub>
+    </v-col-stub>
+    <v-col-stub tag="div" class="mb-2">
+      <card-stub notitle="true">
+        <v-card-text-stub class="headline font-weight-bold">
+          <div>MEVN-Auth APP</div>
+          <v-avatar-stub size="avatarSize" class="mt-9"><img src="https://forums.coretabs.net/user_avatar/forums.coretabs.net/sniperadmin/120/2694_2.png" alt="nasr"></v-avatar-stub>
+          <h4 class="mt-7">
+            This is a simple authentication/authorization app
+            built with Mongo-Express-Vue-Node and boosted by
+            <strong class="green--text">Unit testing with Jest</strong></h4>
+        </v-card-text-stub>
+      </card-stub>
+    </v-col-stub>
+    <v-col-stub tag="div">
+      <v-alert-stub color="purple" tag="div" value="true" closelabel="$vuetify.close" icon="" outlined="true">
+        <div class="title">Instructions</div>
+        <div>
+          You can go to register or login to test authentication
+        </div>
+      </v-alert-stub>
+    </v-col-stub>
+  </v-row-stub>
+</v-container-stub>
+`;
